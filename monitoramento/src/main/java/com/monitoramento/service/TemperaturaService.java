@@ -8,6 +8,6 @@ import java.util.concurrent.ThreadLocalRandom;
 public class TemperaturaService {
     public double geraTemperatura() {
         return ThreadLocalRandom.current().nextDouble(15, 40);
-       // throw new RuntimeException("Falha simulada");
+//        throw new RuntimeException("Falha simulada");
     }
 }
